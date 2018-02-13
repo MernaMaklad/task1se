@@ -1,0 +1,25 @@
+-$ git clone https://github.com/MernaMaklad/task1se.git
+-$ cd C:/Users/Merna/Desktop/task1se
+-git init
+-git status
+-git add .
+-git status
+-git reset sec3.1.txt
+-git status
+-git add sec3.1.txt
+-git status
+-git commit -m "Commit 3 files from staging area to repository"
+-git push -u origin master
+
+-git branch ReadMe
+-git checkout ReadMe
+-git status
+-git add README.md
+-git commit -m "Adding README.md to branch ReadMe"
+-git push origin ReadMe
+-git checkout master
+-git status
+-git pull origin master
+-git add AllMyCommands.txt
+-git commit -m "Adding AllyMyCommands.txt"
+-git push origin master
